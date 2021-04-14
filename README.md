@@ -15,3 +15,7 @@ https://www.acmicpc.net/group/8642
 ### 0331_23회차
 - [백준_10157_자리배정[실5]](https://www.acmicpc.net/problem/10157)
 - [백준_10799_쇠막대기[실3]](https://www.acmicpc.net/problem/10799)
+
+### 0414_24회차
+- [프로그래머스_가장 큰 수[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42746)
+- [프로그래머스_네트워크[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43162)
