@@ -19,3 +19,7 @@ https://www.acmicpc.net/group/8642
 ### 0414_24회차
 - [프로그래머스_가장 큰 수[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42746)
 - [프로그래머스_네트워크[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43162)
+
+### 0421_25회차
+- [단어 변환[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43163)
+- [전화번호 목록[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42577)
