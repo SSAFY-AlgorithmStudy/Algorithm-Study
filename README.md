@@ -23,3 +23,7 @@ https://www.acmicpc.net/group/8642
 ### 0421_25회차
 - [프로그래머스_단어 변환[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43163)
 - [프로그래머스_전화번호 목록[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42577)
+
+### 0428_26회차
+- [프로그래머스_여행 경로[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43164)
+- [프로그래머스_카펫[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42842)
