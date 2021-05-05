@@ -27,3 +27,7 @@ https://www.acmicpc.net/group/8642
 ### 0428_26회차
 - [프로그래머스_여행 경로[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43164)
 - [프로그래머스_카펫[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42842)
+
+### 0505_27회차
+- [키패드 누르기[Lv.1]](https://programmers.co.kr/learn/courses/30/lessons/67256)
+- [수식 최대화[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/67257)
