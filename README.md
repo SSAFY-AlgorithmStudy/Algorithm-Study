@@ -34,3 +34,6 @@ https://www.acmicpc.net/group/8642
 
 ### 0609_28회차
 - [H-ndex[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42747)
+
+### 0616_29회차
+- [위장[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42578?)
