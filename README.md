@@ -36,5 +36,9 @@ https://www.acmicpc.net/group/8642
 - [H-ndex[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
 ### 0616_29회차
-- [위장[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42578?)
+- [위장[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42578)
 - [디스크 컨트롤러[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/42627)
+
+### 0630_30회차
+- [베스트앨범[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/42579)
+- [소수고리[Lv.5](https://level.goorm.io/exam/43234/%EC%86%8C%EC%88%98-%EA%B3%A0%EB%A6%AC/quiz/1)
