@@ -42,3 +42,6 @@ https://www.acmicpc.net/group/8642
 ### 0630_30회차
 - [베스트앨범[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/42579)
 - [소수고리[Lv.5]](https://level.goorm.io/exam/43234/%EC%86%8C%EC%88%98-%EA%B3%A0%EB%A6%AC/quiz/1)
+
+### 0707_31회차
+- [두 동전[Lv.3]](https://www.acmicpc.net/problem/16197)
