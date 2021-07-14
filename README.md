@@ -47,11 +47,6 @@ https://www.acmicpc.net/group/8642
 - [두 동전[골4]](https://www.acmicpc.net/problem/16197)
 #### 과제
 
-- [groom_뒤집기 정렬[Lv.5]](https://level.goorm.io/exam/43240/%EB%92%A4%EC%A7%91%EA%B8%B0-%EC%A0%95%EB%A0%AC/quiz/1)
-- [groom_징검다리[Lv.5]](https://level.goorm.io/exam/43235/%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC/quiz/1)
-- [programmers_가장_먼_노드[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/49189)
-- [programmers_기능_개발[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42586)
-- [programmers_입국심사[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/43238)
-- [programmers_합승_택시_요금[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/72413)
-- [BaekJoon_달팽이는_올라가고_싶다[브1]](https://www.acmicpc.net/problem/2869)
-- [프로그래머스 상위 n개 레코드(SQL)](https://programmers.co.kr/learn/courses/30/lessons/59405)
+
+- [프로그래머스 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+- [백준 LCS](https://www.acmicpc.net/problem/9251)
