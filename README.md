@@ -47,7 +47,7 @@ https://www.acmicpc.net/group/8642
 - [두 동전[골4]](https://www.acmicpc.net/problem/16197)
 
 ### 0714_32회차
-- [프로그래머스 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+- [프로그래머스 큰 수 만들기[Lv.2]](https://programmers.co.kr/learn/courses/30/lessons/42883)
 
 #### 과제
 - [프로그래머스 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
