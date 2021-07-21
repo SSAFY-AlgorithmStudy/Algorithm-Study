@@ -1,36 +1,34 @@
-import java.util.*;
-
 class Solution {
     public int solution(int n, int[] stations, int w) {
-        int answer = 0;
-        int index = 0;
-        int prev = 1;
         int length = 2 * w + 1;
+        int prev = 0;
+        int index = 0;
+        int answer = 0;
         
-        while(true){
-            if(index == stations.length){
-                int last = n - stations[index - 1] + w;
-                if(last < n){
-                    answer += build(n - last, length);
-                }
-                break;
+        for(int i = 0; i < stations.length; i++){
+            int cur = stations[i];
+            int left = cur - w;
+            int right = cur + w;
+                
+            if(prev < left){
+                answer += build(left - prev - 1, length);
             }
             
-            while(index < stations.length && stations[index] - w < prev){
-                index++;
-            }
-            
-            int left = stations[index] - w;
-            answer += build(prev - left, length);
-        	prev = stations[index] + w + 1;
-            index++;
+            prev = right;
+        }
+        
+        if(prev < n){
+            answer += build(n - prev, length);
         }
         
         return answer;
     }
     
     public int build(int length, int width){
-        if(length % width == 0) return length / width;
-        else return length / width + 1;
+        int ret = length / width;
+        if(length % width != 0) {
+            ret++;
+        }
+        return ret;
     }
 }
