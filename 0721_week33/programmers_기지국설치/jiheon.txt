@@ -1,0 +1,16 @@
+class Solution {
+    public int solution(int n, int[] stations, int w) {
+        int answer = 0;
+        int index=0,i=1;
+        while(i<=n){
+            if(index<stations.length&&stations[index]-w<=i){
+                i=stations[index]+w+1;
+                index++;
+            }else{
+                answer++;
+                i+=(2*w+1);
+            }
+        }
+        return answer;
+    }
+}

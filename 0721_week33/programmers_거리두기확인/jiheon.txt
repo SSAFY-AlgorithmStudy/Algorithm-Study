@@ -1,0 +1,84 @@
+import java.util.*;
+import java.awt.*;
+
+class Solution {
+    static int dir[][]={{-1,0},{0,1},{1,0},{0,-1}};
+    static ArrayList<node> list;
+    static Queue<node> q;
+    static char map[][];
+    static boolean visited[][];
+    
+    public int[] solution(String[][] places) {
+        int[] answer = new int[5];
+       
+        for(int k=0;k<5;k++){
+            map=new char[5][5];
+            list=new ArrayList<>();
+            for(int i=0;i<5;i++){
+                map[i]=places[k][i].toCharArray();
+            }
+            
+            for(int i=0;i<5;i++){
+                for(int j=0;j<5;j++){
+                    if(map[i][j]=='P'){
+                        list.add(new node(new Point(i,j),0));
+                    }
+                }
+            }
+            boolean flag=true;
+            for(int i=0;i<list.size();i++){
+                node n=list.get(i);
+                if(!check(n)){
+                    flag=false;
+                    break;
+                }
+            }
+            if(!flag)
+                answer[k]=0;
+            else{
+                answer[k]=1;
+            }
+        }
+        return answer;
+    }
+    public static boolean check(node n){
+        q=new LinkedList<>();
+        visited=new boolean[5][5];
+        visited[n.p.x][n.p.y]=true;
+        q.add(n);
+        while(!q.isEmpty()){
+            node tmp=q.poll();
+            int r=tmp.p.x;
+            int c=tmp.p.y;
+            int dist=tmp.dist;
+            
+            if(map[r][c]=='P'&&dist!=0){
+                if(dist<=2){
+                    return false;
+                }
+            }
+            
+            for(int d=0;d<4;d++){
+                int nr=r+dir[d][0];
+                int nc=c+dir[d][1];
+                
+                if(nr<0||nc<0||nr>=5||nc>=5||map[nr][nc]=='X'||visited[nr][nc])
+                    continue;
+                else{
+                    visited[nr][nc]=true;
+                    q.add(new node(new Point(nr,nc),dist+1));
+                }
+            }
+        }
+        return true;
+    }
+}
+class node{
+    Point p;
+    int dist;
+    
+    public node(Point p,int dist){
+        this.p=p;
+        this.dist=dist;
+    }
+}
