@@ -51,9 +51,19 @@ https://www.acmicpc.net/group/8642
 
 ### 0721_33회차
 - [프로그래머스 기지국 설치[Lv.3]](https://programmers.co.kr/learn/courses/30/lessons/12979)
+
 ### 0804_34회차 
 - [백준 수 이어쓰기2](https://www.acmicpc.net/problem/1790)
 - [백준 카드](https://www.acmicpc.net/problem/11652)
+
+### 0804_34회차 
+- [백준 수 이어쓰기2](https://www.acmicpc.net/problem/1790)
+- [백준 카드](https://www.acmicpc.net/problem/11652)
+
+### 0811_35회차 
+- [접미사 배열](https://www.acmicpc.net/problem/11656)
+- [부분 수열의 합](https://www.acmicpc.net/problem/14225)
+
 #### 과제
 - [프로그래머스 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
 - [백준 LCS](https://www.acmicpc.net/problem/9251)
