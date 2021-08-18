@@ -64,6 +64,8 @@ https://www.acmicpc.net/group/8642
 - [접미사 배열](https://www.acmicpc.net/problem/11656)
 - [부분 수열의 합](https://www.acmicpc.net/problem/14225)
 
+### 0818_36회차 
+- [프로그래머스 3주차 위클리 챌린지](https://programmers.co.kr/learn/courses/30/lessons/84021)
+
 #### 과제
 - [프로그래머스 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
-- [백준 LCS](https://www.acmicpc.net/problem/9251)
