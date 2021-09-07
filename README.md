@@ -69,3 +69,6 @@ https://www.acmicpc.net/group/8642
 
 ### 0901_37회차 
 - [프로그래머스 5주차 위클리 챌린지](https://programmers.co.kr/learn/courses/30/lessons/84512)
+
+### 0908
+- 이번 주는 휴식 :)
