@@ -1,62 +1,72 @@
-import java.util.*;
-
 class Kwon {
-    
-    ArrayList<String> answer = new ArrayList<>();
-    HashMap<String, Integer> setCounts = new HashMap<>();
-    
-    public String[] solution(String[] orders, int[] course) {
-        for(String order : orders){
-            int size = order.length();
+    public String solution(String p) {
+        // 1.
+        if(isEmpty(p))
+            return p;
+        
+        // 2.
+        String[] uv = split(p);
+        String u = uv[0];
+        String v = uv[1];
+        
+        // 3.
+        if(valid(u))
+            return u + solution(v);
+        else{
+            StringBuilder ret = new StringBuilder();
+            ret.append('(').append(solution(v)).append(')');
             
-            char[] sub = order.toCharArray();
-            Arrays.sort(sub);
-            StringBuilder sb = new StringBuilder();
-            for(char ele : sub) sb.append(ele);
-            order = sb.toString();
-            
-            for(int i : course){
-                makeSet(0, 0, i, "", order);
+            for(int i = 1; i < u.length() - 1; i++){
+                if(u.charAt(i) == '(')
+                    ret.append(')');
+                else
+                    ret.append('(');
             }
-        }
-        
-        HashMap<Integer, Integer> maxCountPerSet = new HashMap<>();
-        for(String set : setCounts.keySet()){
-            int length = set.length();
-            int cnt = setCounts.get(set);
             
-            maxCountPerSet.put(length, Math.max(maxCountPerSet.getOrDefault(length, 0), cnt));
+            return ret.toString();
         }
-        
-        for(int length : maxCountPerSet.keySet()){
-            int size = maxCountPerSet.get(length);
-            
-            if(size < 2) continue;
-            
-            for(String set : setCounts.keySet()){
-                if(set.length() == length && setCounts.get(set) == size){
-                    answer.add(set);
-                }
-            }
-        }
-        
-        int index = 0;
-        String[] ret = new String[answer.size()];
-        for(String a : answer){
-            ret[index++] = a;
-        }
-        Arrays.sort(ret);
-        
-        return ret;
     }
     
-    public void makeSet(int cnt, int cur, int M, String set, String order){
-        if(cnt == M){
-            setCounts.put(set, setCounts.getOrDefault(set, 0) + 1);
-            return;
+    public boolean isEmpty(String p){
+        return "".equals(p);
+    }
+    
+    public String[] split(String w){
+        int balance = 0;
+        int index = 0;
+        
+        for(int i = 0; i < w.length(); i++){
+            if(w.charAt(i) == '(')
+                balance++;
+            else
+                balance--;
+            
+            if(balance == 0){
+                index = i;
+                break;
+            }
         }
-        for(int i = cur; i < order.length(); i++){
-            makeSet(cnt + 1, i + 1, M, set + order.charAt(i), order);
+        
+        String u = w.substring(0, index + 1);
+        String v = w.substring(index + 1, w.length());
+        
+        return new String[]{u, v};
+    }
+    
+    public boolean valid(String u){
+        int stk = 0;
+        
+        for(int i = 0; i < u.length(); i++){
+            if(u.charAt(i) == '(')
+                stk++;
+            else{
+                if(stk == 0)
+                    return false;
+                else 
+                    stk--;
+            }
         }
+        
+        return stk == 0;
     }
 }
