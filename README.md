@@ -56,30 +56,22 @@ https://www.acmicpc.net/group/8642
 - [백준 수 이어쓰기2](https://www.acmicpc.net/problem/1790)
 - [백준 카드](https://www.acmicpc.net/problem/11652)
 
-### 0804_35회차 
-- [백준 수 이어쓰기2](https://www.acmicpc.net/problem/1790)
-- [백준 카드](https://www.acmicpc.net/problem/11652)
-
-### 0811_36회차 
+### 0811_35회차 
 - [접미사 배열](https://www.acmicpc.net/problem/11656)
 - [부분 수열의 합](https://www.acmicpc.net/problem/14225)
 
-### 0818_37회차 
+### 0818_36회차 
 - [프로그래머스 3주차 위클리 챌린지](https://programmers.co.kr/learn/courses/30/lessons/84021)
+
+### 0818_37회차
+- [프로그래머스 4주차 위클래 챌린지](https://programmers.co.kr/learn/courses/30/lessons/84325)
 
 ### 0901_38회차 
 - [프로그래머스 5주차 위클리 챌린지](https://programmers.co.kr/learn/courses/30/lessons/84512)
 
-### 0908_39회차
-- 이번 주는 각자의 스케줄로 휴식 🙂
-- 다음 주에 보아요!
 
-### 0915_40회차
-- 이번 주는 각자의 스케줄로 휴식 222 🙂
-- 다음 주에 보아요!
+### 0922_39회차
+- 이슈 등록된 문제 풀기
 
-### 0922_40회차
-- 추우서억
-
-### 0929_41회차 
+### 0929_40회차 
 - [프로그래머스 8주차 위클리 챌린지](https://programmers.co.kr/learn/courses/30/lessons/86491)
