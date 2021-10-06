@@ -75,3 +75,6 @@ https://www.acmicpc.net/group/8642
 
 ### 0929_40회차 
 - [프로그래머스 8주차 위클리 챌린지](https://programmers.co.kr/learn/courses/30/lessons/86491)
+
+### 1006_41회차 
+- 이슈 등록된 문제 풀기
