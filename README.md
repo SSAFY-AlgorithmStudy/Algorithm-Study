@@ -78,3 +78,6 @@ https://www.acmicpc.net/group/8642
 
 ### 1006_41회차 
 - 이슈 등록된 문제 풀기
+
+### 1013_42회차 
+- [백준 접두사 찾기](https://www.acmicpc.net/problem/14426)
