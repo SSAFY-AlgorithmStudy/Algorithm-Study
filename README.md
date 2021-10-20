@@ -81,3 +81,6 @@ https://www.acmicpc.net/group/8642
 
 ### 1013_42회차 
 - [백준 접두사 찾기](https://www.acmicpc.net/problem/14426)
+
+### 1020_43회차 
+- [위클리 챌린지 9주차_전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971)
