@@ -84,3 +84,6 @@ https://www.acmicpc.net/group/8642
 
 ### 1020_43회차 
 - [위클리 챌린지 9주차_전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971)
+
+### 1027_44회차 
+- 이슈 등록된 문제 풀기
