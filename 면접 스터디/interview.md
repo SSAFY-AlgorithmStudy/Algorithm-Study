@@ -79,6 +79,8 @@
 </div>
 </details>
 
+<hr>
+
 ### 프레임워크
 <details>
 <summary>8. 스프링부트와 스프링 프레임워크의 차이점</summary>
@@ -126,6 +128,7 @@
 </div>
 </details>
 
+<hr>
 
 ### 웹 개발 
 <details>
