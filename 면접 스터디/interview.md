@@ -113,7 +113,7 @@
 
     그래서 String은 문자열 연산이 적고 멀티쓰레드 환경일 경우 StringBuffer는 문자열 연산이 많고 멀티쓰레드인 환경일 경우 적합.
 
-    **StringBuffer 와 StringBuilder 차이
+    **StringBuffer 와 StringBuilder 차이**<br>
      동기화 유무로 사용하는것을 선택하는데 StringBuffer는 동기화를 지원하지만 StringBuilder는 동기화를 지원하지 않는다. 그래서 단일 쓰레드에서의 성능은 StringBuilder가 더 좋다.
 
 
