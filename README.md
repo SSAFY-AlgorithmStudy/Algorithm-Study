@@ -1,9 +1,9 @@
 ## 📚SSAFY 알고리즘 스터디📚
 
-기간 - 2020.07 ~ 진행중 ! 
+기간 - 2020.07 ~ 2021.12 ! 
 
 ### 📒기간
-2020.07 ~ 진행중 ! 
+2020.07 ~ 2021.12 ! (종료) 
 
 ### 📗 알고리즘 문제 풀이 목록
 https://docs.google.com/spreadsheets/d/1SUvNJR3kIMDxdu5DWOQKYqHKhvXUj_4HAgeA-YGty8M/edit#gid=0
